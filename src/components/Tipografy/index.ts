@@ -1,0 +1,1 @@
+export { Tipografy } from './Tipografy';

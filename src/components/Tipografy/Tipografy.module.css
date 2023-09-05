@@ -1,0 +1,19 @@
+.root {
+}
+.textMain {
+  color: var(--text-main);
+}
+.textBody {
+  font-size: 8rem;
+  font-weight: 300;
+  color: var(--text-body);
+}
+.textCompleted {
+  color: var(--text-completed);
+  text-decoration: line-through;
+}
+.textSupporting {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-main);
+}

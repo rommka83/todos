@@ -1,0 +1,24 @@
+.root {
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0 var(--text-body);
+}
+.root::before,
+.root::after {
+  content: '';
+  position: absolute;
+  height: 0.7rem;
+  background-color: var(--bg-widget);
+  border: 1px solid var(--text-completed);
+  box-shadow: 0.5rem 0.5rem 0.5rem 0 var(--text-body);
+}
+.root::after {
+  top: 100%;
+  left: 0.5%;
+  width: 99%;
+}
+.root::before {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  left: 1%;
+  width: 98%;
+}

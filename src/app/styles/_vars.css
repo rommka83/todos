@@ -1,0 +1,8 @@
+:root {
+  --text-main: rgba(119, 65, 65, 1);
+  --text-body: rgba(119, 65, 65, 0.15);
+  --text-completed: rgba(119, 65, 65, 0.15);
+  --body-color: rgba(237, 233, 233, 1);
+  --bg-widget: rgba(255, 255, 255, 1);
+  --check: rgba(18, 173, 12, 1);
+}

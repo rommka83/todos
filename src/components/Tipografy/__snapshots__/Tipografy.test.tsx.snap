@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`проверка Tipografy отрисовка Tipografy, вариант - "text-body" 1`] = `
+<p
+  className="root textBody"
+>
+  Тест
+</p>
+`;
+
+exports[`проверка Tipografy отрисовка Tipografy, вариант - "text-completed" 1`] = `
+<p
+  className="root textCompleted"
+>
+  Тест
+</p>
+`;
+
+exports[`проверка Tipografy отрисовка Tipografy, вариант - "text-main" 1`] = `
+<p
+  className="root textMain"
+>
+  Тест
+</p>
+`;
+
+exports[`проверка Tipografy отрисовка Tipografy, вариант - "text-supporting" 1`] = `
+<p
+  className="root textSupporting"
+>
+  Тест
+</p>
+`;

@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  background-color: transparent;
+  border-bottom: 1px solid var(--text-completed);
+  cursor: pointer;
+}
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--text-completed);
+}

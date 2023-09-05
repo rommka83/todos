@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`проверка BtnControl отрисовка BtnControl 1`] = `
+<button
+  className="root"
+>
+  Текст кнопки
+</button>
+`;

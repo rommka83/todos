@@ -1,0 +1,18 @@
+@import './_nulling-styles.css';
+@import './_vars.css';
+@import './_fonts.css';
+
+body {
+  background-color: var(--body-color);
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

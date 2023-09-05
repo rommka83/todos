@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--bg-widget);
+}
+.controlArrStore {
+  display: flex;
+}
+.controlArrStore > button:not(:last-child) {
+  margin-right: 2rem;
+}
