@@ -34,6 +34,7 @@ export function TodoInput({ isOpenList, isOpen }: ITodoInput) {
         className={classNames(styles.caret, isOpen && styles.caretOpen)}
       />
       <input
+        data-cy='input'
         data-testid='TodoInput'
         value={value}
         onChange={(e) => setValue(e.target.value)}

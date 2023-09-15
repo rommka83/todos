@@ -13,10 +13,10 @@ export function ListItems({ todos }: ITodos) {
   };
 
   return (
-    <ul data-testid='ListItems' className={styles.root}>
+    <ul data-cy='listTodos' data-testid='ListItems' className={styles.root}>
       {todos.map((todo) => {
         return (
-          <li data-testid='Item' key={nanoid()} onClick={() => hendleClick(todo)}>
+          <li data-cy='todoItem' data-testid='Item' key={nanoid()} onClick={() => hendleClick(todo)}>
             <TodoItem status={todo.status} value={todo.value} />
           </li>
         );

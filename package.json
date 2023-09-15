@@ -2,6 +2,7 @@
   "name": "todos",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rommka83.github.io/todos/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,6 +13,7 @@
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "classnames": "^2.3.2",
+    "gh-pages": "^6.0.0",
     "nanoid": "^4.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -25,12 +27,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test:cypress": "cypress open",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:cypress/recommended"
     ]
   },
   "browserslist": {
@@ -47,6 +53,8 @@
   },
   "devDependencies": {
     "@types/react-test-renderer": "^18.0.1",
+    "cypress": "^13.2.0",
+    "eslint-plugin-cypress": "^2.14.0",
     "generate-react-cli": "^8.3.0",
     "react-test-renderer": "^18.2.0"
   }

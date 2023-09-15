@@ -7,7 +7,7 @@ import { useAppSelector } from 'app/store/hooks';
 import { todoSelector } from 'app/store/slices/todoSlice';
 
 export function TodoWidget() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const todos = useAppSelector(todoSelector);
 
   const handleClick = () => {
